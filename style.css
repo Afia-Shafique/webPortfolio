@@ -38,7 +38,6 @@ header img {
   gap: 12px;
   padding: 114px, 24px, 114px, 24px;
   background-image: url("./images/background.png");
-  background-color: rgb(241, 241, 255);
 }
 
 .header-h1 {
@@ -47,7 +46,7 @@ header img {
   height: 150px;
   font-size: 40px;
   font-weight: 700;
-  margin-left: 20px;
+  margin-left: 25px;
   line-height: 52px;
   color: #172b4d;
 }
@@ -55,7 +54,7 @@ header img {
 .paragraph-p1 {
   width: 327px;
   height: 146px;
-  margin-left: 20px;
+  margin-left: 25px;
   margin-top: 25px;
   font-weight: 400px;
   font-size: 16px;
@@ -76,10 +75,250 @@ header img {
 }
 
 .social-media-icons {
-  width: 170.17px;
+  width: 190.17px;
   height: 20px;
-  margin: 20px 0 0 20px;
+  margin: 30px 0 0 20px;
   display: flex;
   justify-content: space-between;
   cursor: pointer;
+}
+
+.work-section {
+  width: 375px;
+  height: 2788px;
+  gap: 88px;
+  background-color: rgb(242, 243, 244);
+}
+
+.work-section .cards {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  width: 327px;
+  height: 552px;
+  box-shadow: #a7acb5 0.5px 0.5px 1.5px 1.5px;
+  border-radius: 16px;
+  padding: 16px 16px;
+  margin-top: 114px;
+  margin-left: 7px;
+  margin-bottom: 88px;
+}
+
+.cards .card-image {
+  width: 295;
+  height: 220px;
+  border-radius: 8px;
+  padding: 16px 16px 12px 16px;
+}
+
+.cards .card-content {
+  display: flex;
+  flex-direction: column;
+  width: 295px;
+  height: 288px;
+  gap: 12px;
+  margin-left: 16px;
+}
+
+.title {
+  margin-top: 10px;
+  width: 295px;
+  height: 36px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: rgba(23, 43, 77, 1);
+}
+
+.canopy {
+  display: flex;
+  flex-direction: row;
+  width: 236px;
+  height: 32px;
+  margin-top: 14px;
+}
+
+.canopy-text {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  margin-top: 8px;
+  color: #344563;
+  margin-left: 0;
+}
+
+.backEnd {
+  font-weight: 600;
+  font-size: 13px;
+  font-style: normal;
+  margin-left: -8px;
+  margin-top: 10px;
+  line-height: 10px;
+  color: rgba(122, 134, 154, 1);
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  margin-left: 12px;
+  margin-right: 18px;
+  margin-top: 10px;
+}
+
+.cardsPara {
+  margin-top: 12px;
+  width: 295px;
+  height: 76px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: rgba(52, 69, 99, 1);
+}
+
+.languages {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.buttons {
+  display: flex;
+  padding: 4px 12px;
+  align-items: center;
+  border-radius: 8px;
+  background: #ebebff;
+  color: #6070ff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.36px;
+}
+
+.see-project {
+  margin-top: 25px;
+  margin-bottom: 12px;
+  margin-right: 169px;
+  border: 1px solid rgba(96, 112, 255, 1);
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.51px;
+  color: rgba(57, 109, 242, 1);
+  padding: 12px 12px 12px 12px;
+}
+
+.myself-section {
+  width: 375px;
+  height: 1062.15px;
+  background-color: rgb(242, 243, 244);
+}
+
+.myself-section .aboutMe-section {
+  border-top-right-radius: 95px;
+  height: 490px;
+  background-color: white;
+}
+
+.aboutMySelf {
+  width: 327px;
+  height: 346px;
+  border: 1px solid transparent;
+}
+
+.myself-header {
+  margin-top: 90px;
+  width: 327px;
+  height: 35px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 25px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.resume-button {
+  margin-top: 25px;
+  margin-bottom: 12px;
+  margin-right: 169px;
+  margin-left: 20px;
+  width: 140px;
+  height: 24px;
+  border: 1px solid rgba(96, 112, 255, 1);
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.51px;
+  color: rgba(57, 109, 242, 1);
+  padding: 12px 12px 12px 12px;
+}
+
+.skills {
+  height: 600px;
+  width: 375px;
+  background-color: white;
+}
+
+.languages-Section {
+  padding: 15px;
+  width: 315px;
+  height: 30px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+
+.languages-Section img {
+  margin-top: -7px;
+  height: 37px;
+  width: 43px;
+}
+
+.different-languages {
+  height: 50px;
+  width: 290px;
+  background-color: rgba(247, 247, 249, 1);
+  border-radius: 8px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 9px 12px 9.716px 12px;
+  color: rgba(37, 56, 88, 1);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.framework-Section {
+  padding: 15px;
+  margin-top: 15px;
+  width: 305px;
+  height: 35px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 15px;
+  box-shadow: 0 1px rgb(213, 217, 225);
+}
+
+.framework-Section img {
+  height: 27px;
+  width: 27px;
 }
