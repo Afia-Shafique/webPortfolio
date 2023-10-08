@@ -354,7 +354,9 @@ header img {
   font-size: 20px;
   line-height: 28px;
   margin-top: 1rem;
-}form {
+}
+
+form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
