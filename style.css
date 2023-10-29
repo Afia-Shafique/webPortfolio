@@ -453,7 +453,7 @@ color:rgba(52, 69, 99, 1);
  }
  .headline-section {
   display: flex;
-  padding: 12.063rem 12rem ;
+  padding: 11rem 12rem ;
   flex-direction: column;
   justify-content: center;
   background-image: url("./images/Header\ bg.svg"); 
@@ -491,7 +491,7 @@ color:rgba(52, 69, 99, 1);
 }
 .social-media-icons{
   width: 13.4vw;
-  height: 3.5vh;
+  height: 3.1vh;
   flex-shrink: 0;
   margin-top: 1rem;
 
